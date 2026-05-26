@@ -22,6 +22,7 @@ to classify images.
   
 - Run training
   python train.py
+  copy available codes from appendixes A and B
 
 ## Result
 - Achieved improved classification accuracy after model tuning.
