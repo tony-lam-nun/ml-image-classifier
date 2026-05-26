@@ -32,7 +32,7 @@ to classify images into categories using Python.
    python train.py
 
 ## Results
-- Achieved ~XX% accuracy (replace this with real value)
+- Achieved ~XX% accuracy
 
 ## Future Improvements
 - Improve model performance
