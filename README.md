@@ -15,7 +15,7 @@ to classify images.
 
 ## How to run
 - Clone the repository
-  git clone https://github.com/your-username/ml-image-classifier
+  git clone https://github.com/tony-lam-nun/ml-image-classifier
   
 - Install requirement
   pip install -r requirements.txt
