@@ -29,7 +29,7 @@ to classify images into categories using Python.
    pip install -r requirements.txt
 
 3. Run:
-   python train.py
+   python train.py, and python model.py
 
 ## Results
 - Achieved 76% accuracy
@@ -38,6 +38,7 @@ to classify images into categories using Python.
 - Improve model performance
 - Increase dataset size
 - Add web interface
+
 
 
 
