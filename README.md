@@ -66,8 +66,8 @@ After training for 20 epochs, the model achieves the following performance metri
 ### Training History
 Below are the training and validation curves showing the model convergence:
 ### [ <p align="center">
-###     <img src="assets/accuracy_plot.png" width="45%" alt="Model Accuracy">
-###     <img src="assets/loss_plot.png" width="45%" alt="Model Loss">
+###     <img src="accuracy_plot.png" width="45%" alt="Model Accuracy">
+###     <img src="loss_plot.png" width="45%" alt="Model Loss">
 ###   </p> ]
 
 ## Future Improvements
