@@ -16,7 +16,7 @@ The network processes spatial data hierarchically, moving from simple edges to c
 2. **Convolutional Block 2 (64 Filters)**: Combines low-level features to detect mid-level shapes, corners, and textures.
 3. **Convolutional Block 3 (128 Filters)**: Captures complex, high-level structural features specific to the target classes.
 
-Each block utilizes $3\times3$ kernels, ReLU activation functions, Max Pooling ($2\times2$) to reduce spatial dimensions, and Dropout to prevent overfitting.
+Each block utilizes kernels, ReLU activation functions, Max Pooling ($2\times2$) to reduce spatial dimensions, and Dropout to prevent overfitting.
 
 [Input: 32x32x3]│[Conv2D: 32 filters]  ──> [MaxPooling] ──> [Dropout]│[Conv2D: 64 filters]  ──> [MaxPooling] ──> [Dropout]│[Conv2D: 128 filters] ──> [MaxPooling] ──> [Dropout]│[Flatten] ──> [Dense Layer] ──> [Dropout] ──> [Softmax Output (10 Classes)]
 
