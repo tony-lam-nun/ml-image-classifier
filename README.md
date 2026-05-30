@@ -56,9 +56,6 @@ Make sure you have Python 3.8+ installed on your system.
 ### Training the Model:
    python train.py, and python model.py
 
-### Evaluating the Model
-    python evaluate.py
-
 ## Results and performance
 After training for 20 epochs, the model achieves the following performance metrics on the test dataset:
 ### Training Accuracy | ~76.2% |
@@ -67,10 +64,11 @@ After training for 20 epochs, the model achieves the following performance metri
 ### Validation Loss | ~72.0% |
 
 ### Training History
-<p align="center">
-  <img src="assets/accuracy_plot.png" width="45%" alt="Model Accuracy">
-  <img src="assets/loss_plot.png" width="45%" alt="Model Loss">
-</p>
+Below are the training and validation curves showing the model convergence:
+### [ <p align="center">
+###     <img src="assets/accuracy_plot.png" width="45%" alt="Model Accuracy">
+###     <img src="assets/loss_plot.png" width="45%" alt="Model Loss">
+###   </p> ]
 
 ## Future Improvements
 ### Improve model performance
